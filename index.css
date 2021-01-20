@@ -1,0 +1,185 @@
+/**/
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: Tahoma, Verdana, sans-serif;
+  color:rgb(15, 15, 15);
+  margin:1em;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.0em;
+}
+/*AQUI EMPIEZA EL HEADER*/
+body {
+  background-image: url(../mainbg.jpeg);
+  background-position:center center ;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
+/*Titulo del Encabezado*/  
+  h1 {
+    display: inline-block;
+    color: rgb(145, 46, 120);
+    font-size:50px;
+    text-shadow: 2px 2px;
+    letter-spacing: 2px;
+  }
+
+  /*IMAGEN DE INICIO*/
+  .headermainstreet {
+    height:auto ;
+    width: 50%;
+    display:block;
+    border-radius: 5%;
+    border:4px solid rgba(77, 70, 70, 0.192);
+    padding:2px;
+  }
+
+  img {
+    opacity: 0.7;
+  }
+
+  img:hover{
+    transform:scale(0.9);
+   
+  }
+
+  img:hover{
+    transition:all 0.5s linear;
+    opacity: 1.0;
+  }
+
+/*Button to goto the top if you are in the bottom.*/
+  #top {
+    text-align: right;
+  }
+  .arrowbottom {
+    float:right;
+    height:900%;
+    width:950px;
+  }
+
+/*Oracion arriba de la tabla de lugares, lineheight es el espacio de arriba y abajo entre las oraciones.*/
+  .localist {
+    width:480px;
+    border:2px solid lightcoral;
+    padding:2px;
+    margin:2px;
+  line-height: 1.8;
+}
+
+/*Aqui se esta edit la img con el class selector y con el id parrafo de la misma img
+lo que estas edit es la separion entre oraciones de arriba para abajo.*/
+  .zocaloimg{
+    width:70%;
+    height:auto;
+  }
+  #zocalo{
+    line-height: 2.8;
+  }
+
+
+  .angelimg{
+    width:70%;
+    height:450px;
+  }
+  #angel{
+    line-height: 2.8;
+  }
+
+  .artesimg{
+    width:75%;
+    height:450px;
+  }
+  #bellasartes{
+    line-height: 2.8;
+  }
+
+
+  .castilloimg{
+    width:70%;
+    height:450px;
+  }
+  #castillo{
+    line-height: 2.8;
+  }
+
+
+  .monuimg{
+    width:70%;
+    height:450px;
+  }
+  #monumento{
+    line-height: 1.8;
+  }
+
+
+
+  .mainpgraph{
+    font-weight: bold;
+    color: rgb(8, 32, 53);
+  }
+
+ 
+
+
+  /*LINK C D M X */
+    .linkdf{
+      color:rgb(126, 5, 126);
+      font-family:bold;
+      text-decoration: none;
+      text-shadow: 1px 1px;
+      letter-spacing: 3px;
+    }
+
+
+    .mainpgraph a:hover{
+      background-color: rgba(255, 255, 255, .3);
+    }
+
+  p, 
+  li {
+    font-size: 15px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+
+.allparragraphs{
+  line-height: 1.5;
+}
+
+
+  
+  /*TABLA*/
+  .citylocations{
+    border:3px solid lightcoral;
+    background-color: rgb(243, 202, 186);
+    padding:50px;
+    margin:10px;
+    text-align: center;
+  }
+  /*Aqui abajo estas modificando solo los LINKS que estan dentro de la tabla quitando las lineas
+   debajo del link.*/
+  .citylocations a {
+    text-decoration: none;
+
+  }
+  .citylocations i:hover {
+    color: seagreen;
+  }
+
+  /*Aqui abajo estamos agregando hover para que aparezca un fondo y un cambio de color
+   a los links que esten dentro de la tabla */
+  .citylocations a:hover{
+    background-color: rgba(255, 255, 255, .3);
+    color: seagreen;
+  }
+                                                                 /*AQUI TERMINA EL HEADER*/
+  /*MAIN , SEPARACION SOLO SON SEPARADORES*/
+  .main {
+    height:1200px;
+  }
+  .separacion {
+    height:200px;
+  }
